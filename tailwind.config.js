@@ -1,16 +1,34 @@
 import forms from '@tailwindcss/forms';
 
 /** @type {import('tailwindcss').Config} */
-const config = {
+export default {
   darkMode: 'class',
-  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
+  ],
   safelist: [
-    'text-slate-300',
-    'text-slate-400',
-    'text-slate-500',
-    'dark:text-slate-200',
-    'dark:text-slate-300',
-    'dark:text-slate-400',
+    // Layout utilities used in Hero stats
+    "flex", "items-center", "justify-between", "justify-center", "gap-4",
+    "px-6", "py-4", "rounded-2xl",
+
+    // Backgrounds & borders
+    "bg-white/5", "bg-white/10", "bg-white/20",
+    "dark:bg-slate-900/40", "dark:bg-slate-900/50", "dark:bg-slate-900/60",
+    "border", "border-slate-200/30", "border-slate-200/50", "dark:border-white/10",
+
+    // Stat numbers
+    "text-slate-300", "text-slate-400", "text-slate-500",
+    "dark:text-slate-200", "dark:text-slate-300", "dark:text-slate-400",
+
+    // Stat labels
+    "uppercase", "tracking-wide", "text-xs", "text-sm",
+
+    // Panel container classes
+    "backdrop-blur-xl", "shadow-lg", "shadow-card-glow",
+
+    // Gradient text (just in case)
+    "bg-gradient-to-r", "from-cyan-400", "via-purple-500", "to-pink-500"
   ],
   theme: {
     extend: {
@@ -46,6 +64,4 @@ const config = {
   },
   plugins: [forms],
 };
-
-export default config;
 

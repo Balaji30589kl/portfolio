@@ -44,31 +44,37 @@ const Hero = () => {
               <span className="absolute -inset-[2px] -z-10 rounded-full bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-pink opacity-25 blur-sm" />
             </Motion.span>
 
-            <Motion.h1
-              variants={fadeInUp}
-              className="text-5xl font-bold leading-tight tracking-tight md:text-6xl lg:text-7xl bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-pink bg-clip-text text-transparent"
-            >
-              {title}
-            </Motion.h1>
+            <div className="isolate">
+              <Motion.h1
+                variants={fadeInUp}
+                className="text-5xl font-bold leading-tight tracking-tight md:text-6xl lg:text-7xl bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-pink bg-clip-text text-transparent"
+              >
+                {title}
+              </Motion.h1>
+            </div>
 
             <Motion.p variants={fadeInUp} className="max-w-2xl text-lg font-medium text-slate-700 md:text-xl dark:text-slate-300">
               {tagline}
             </Motion.p>
 
             {stats.length > 0 && (
-              <Motion.div
-                variants={fadeInUp}
-                className="flex flex-wrap items-center gap-6 rounded-2xl border border-cyan-200/50 bg-gradient-to-br from-white/90 to-cyan-50/80 p-5 shadow-card-glow backdrop-blur-sm dark:border-purple-500/20 dark:from-slate-900/70 dark:to-purple-900/30"
-              >
-                {stats.map((stat) => (
-                  <div key={stat.label} className="flex items-baseline gap-3">
-                    <span className="text-3xl md:text-4xl font-bold text-slate-300 dark:text-slate-200">{stat.value}</span>
-                    <span className="text-xs md:text-sm font-semibold uppercase tracking-[0.25em] text-slate-500 dark:text-slate-400">
-                      {stat.label}
-                    </span>
-                  </div>
-                ))}
-              </Motion.div>
+              <>
+                {/* tw-ignore-start */}
+                <Motion.div
+                  variants={fadeInUp}
+                  className="flex flex-wrap items-center gap-8 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl text-white dark:text-white !text-white [text-shadow:_0_0_8px_rgba(0,0,0,0.6)]"
+                >
+                  {stats.map((stat) => (
+                    <div key={stat.label} className="flex items-baseline gap-3">
+                      <span className="text-3xl md:text-4xl font-bold text-white dark:text-white !text-white !opacity-100">{stat.value}</span>
+                      <span className="text-xs md:text-sm font-semibold uppercase tracking-[0.25em] text-slate-300 dark:text-slate-400 !text-slate-300 !opacity-100">
+                        {stat.label}
+                      </span>
+                    </div>
+                  ))}
+                </Motion.div>
+                {/* tw-ignore-end */}
+              </>
             )}
 
             <Motion.div variants={fadeInUp} className="flex flex-wrap items-center gap-4">

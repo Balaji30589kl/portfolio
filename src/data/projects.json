@@ -1,0 +1,27 @@
+[
+  {
+    "title": "BN Diagnostics – Business Landing Page",
+    "description": "Built and deployed a responsive single-page website for a diagnostic laboratory business. Integrated WhatsApp chat and appointment booking; designed for mobile-first responsiveness.",
+    "highlight": "Deployed on Vercel with fast loads and mobile-first UI for better conversions.",
+    "tech": ["HTML", "CSS", "JavaScript", "Vercel"],
+    "links": {
+      "demo": "https://bn-diagnostic.vercel.app/"
+    },
+    "featured": true
+  },
+  {
+    "title": "Product Store – Backend Web Application",
+    "description": "Developed a backend inventory management service with full CRUD operations and RESTful APIs. Focused on data validation and reliability.",
+    "tech": ["Node.js", "Express.js", "MongoDB"],
+    "links": {},
+    "featured": false
+  },
+  {
+    "title": "Online Shopping – Full Stack Application",
+    "description": "Built a full-stack e-commerce platform with user authentication, product browsing, and cart features. Designed REST APIs for seamless data flow.",
+    "tech": ["React", "Spring Boot", "Tailwind CSS"],
+    "links": {},
+    "featured": false
+  }
+]
+

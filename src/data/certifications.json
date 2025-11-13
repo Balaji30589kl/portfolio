@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Upcoming Certification",
+    "platform": "AWS",
+    "issued": "TBD",
+    "description": "Placeholder for AWS certification. Details will be updated upon completion.",
+    "type": "Upcoming"
+  },
+  {
+    "name": "Upcoming Certification",
+    "platform": "Google ML",
+    "issued": "TBD",
+    "description": "Placeholder for Google Machine Learning certification.",
+    "type": "Upcoming"
+  },
+  {
+    "name": "Upcoming Certification",
+    "platform": "Deep Learning",
+    "issued": "TBD",
+    "description": "Placeholder for Deep Learning certification.",
+    "type": "Upcoming"
+  }
+]
+

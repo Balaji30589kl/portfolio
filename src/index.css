@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply min-h-screen bg-white text-slate-900 antialiased transition-colors duration-500 selection:bg-accent-cyan/20 selection:text-accent-cyan dark:bg-slate-950 dark:text-slate-100;
+}
+
+#root {
+  @apply min-h-screen;
+}

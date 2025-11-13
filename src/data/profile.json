@@ -1,0 +1,39 @@
+{
+  "name": "S Balaji Rao",
+  "email": "sbalaj.rahul@gmail.com",
+  "phone": "+91 6372457414",
+  "links": {
+    "github": "https://github.com/Balaji30589kl",
+    "linkedin": "https://www.linkedin.com/in/balaji-rao-2027-klu/",
+    "portfolioDemo": "https://bn-diagnostic.vercel.app/",
+    "resumeUrl": "/resume.pdf"
+  },
+  "objective": "Computer Science undergraduate aspiring for SDE (Fullstack Developer) roles. Skilled in building scalable and responsive applications across frontend and backend, eager to contribute to agile teams and deliver impactful user-focused solutions.",
+  "education": [
+    {
+      "institution": "KL University, Vijayawada",
+      "program": "B.Tech CSE",
+      "timeline": "2023–2027",
+      "score": "CGPA 9.22"
+    },
+    {
+      "institution": "Narayana School (CBSE)",
+      "program": "Class X & XII",
+      "timeline": "2023"
+    }
+  ],
+  "achievements": [
+    "Solved 350+ coding problems across LeetCode, Codeforces, HackerRank, and CodeChef (focus: DSA and debugging).",
+    "Active GitHub contributor with multiple open-source projects."
+  ],
+  "hero": {
+    "title": "Full Stack Developer | Deep Learning & Cloud Enthusiast",
+    "tagline": "Building scalable, intelligent, and user-focused digital experiences.",
+    "stats": [
+      { "label": "Projects Built", "value": "3+" },
+      { "label": "DSA Problems", "value": "350+" },
+      { "label": "Internships", "value": "1 (incoming)" }
+    ]
+  },
+  "footerText": "© 2025 S Balaji Rao | Made with ❤️ using React + Vite + Tailwind + Framer Motion."
+}

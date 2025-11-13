@@ -1,0 +1,12 @@
+.glass-panel {
+  @apply rounded-glass border border-slate-200/60 bg-white/80 backdrop-blur-xl shadow-lg dark:border-white/10 dark:bg-slate-900/60;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+}
+
+.dark .glass-panel {
+  box-shadow: 0 20px 55px rgba(15, 23, 42, 0.45);
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-teal bg-clip-text text-transparent;
+}

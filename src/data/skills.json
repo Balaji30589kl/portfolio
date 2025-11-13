@@ -1,0 +1,35 @@
+{
+  "bio": "I’m Balaji, a passionate developer from Odisha pursuing Computer Science at KL University. I love building end-to-end solutions — from crafting clean UI with React to developing robust backends in Node.js and Spring Boot. I’m currently exploring AI-driven apps and cloud deployment on AWS.",
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["Java", "C", "JavaScript"]
+    },
+    {
+      "category": "Web",
+      "items": ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "React.js"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "Express.js", "Spring Boot", "REST API Design", "JSON"]
+    },
+    {
+      "category": "Database",
+      "items": ["MySQL", "Oracle", "SQL", "MongoDB"]
+    },
+    {
+      "category": "Cloud Platforms",
+      "items": ["AWS (Basics)", "Vercel"]
+    },
+    {
+      "category": "Tools & Platforms",
+      "items": ["Git", "GitHub", "VS Code", "Postman"]
+    }
+  ],
+  "currentlyLearning": [
+    "Deep Learning fundamentals and model deployment",
+    "AI-driven app development with modern tooling",
+    "Cloud-native patterns on AWS"
+  ]
+}
+

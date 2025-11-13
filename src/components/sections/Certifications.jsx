@@ -39,11 +39,11 @@ const Certifications = () => {
           {certifications.map((cert) => (
             <div
               key={`${cert.name}-${cert.platform}`}
-              className="glass-panel flex flex-col gap-4 p-6 transition hover:-translate-y-1 hover:shadow-glow"
+              className="glass-panel flex flex-col gap-4 rounded-3xl border border-slate-200/60 bg-white/80 p-6 shadow-sm transition hover:-translate-y-1 hover:border-accent-cyan/50 hover:shadow-card-glow dark:border-white/10 dark:bg-slate-900/60 dark:hover:border-accent-purple/50"
             >
               <div>
-                <p className="text-sm uppercase tracking-[0.3em] text-accent-cyan/80">{cert.platform}</p>
-                <h3 className="mt-2 text-xl font-semibold text-slate-900 dark:text-slate-100">{cert.name}</h3>
+                <p className="text-sm font-bold uppercase tracking-[0.3em] text-transparent bg-clip-text bg-gradient-to-r from-accent-cyan to-accent-purple">{cert.platform}</p>
+                <h3 className="mt-2 text-xl font-bold text-slate-900 dark:text-slate-100">{cert.name}</h3>
               </div>
               <p className="text-sm text-slate-600 dark:text-slate-400">{cert.description}</p>
               <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">

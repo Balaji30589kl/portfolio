@@ -43,10 +43,10 @@ const Experience = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.4 }}
                 transition={{ duration: 0.5, delay: index * 0.05 }}
-                className="relative rounded-3xl border border-slate-200/80 bg-white/80 p-6 shadow-lg dark:border-white/10 dark:bg-slate-900/60"
+                className="group relative rounded-3xl border border-slate-200/60 bg-white/80 p-6 shadow-sm transition hover:border-accent-cyan/50 hover:shadow-card-glow dark:border-white/10 dark:bg-slate-900/60 dark:hover:border-accent-purple/50"
               >
-                <span className="absolute -left-[37px] top-6 flex h-3 w-3 items-center justify-center rounded-full border border-accent-cyan/70 bg-white dark:bg-slate-950">
-                  <span className="h-2 w-2 rounded-full bg-accent-cyan" />
+                <span className="absolute -left-[37px] top-6 flex h-3 w-3 items-center justify-center rounded-full border border-accent-cyan/70 bg-gradient-to-br from-white to-cyan-50 shadow-sm dark:border-accent-purple/70 dark:from-slate-950 dark:to-purple-950">
+                  <span className="h-2 w-2 rounded-full bg-gradient-to-br from-accent-cyan to-accent-purple" />
                 </span>
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div>

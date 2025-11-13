@@ -27,12 +27,12 @@
     "Active GitHub contributor with multiple open-source projects."
   ],
   "hero": {
-    "title": "Full Stack Developer | Deep Learning & Cloud Enthusiast",
-    "tagline": "Building scalable, intelligent, and user-focused digital experiences.",
+    "title": "Full Stack Developer",
+    "tagline": "Building user-centric, scalable, and modern web applications.",
     "stats": [
       { "label": "Projects Built", "value": "3+" },
       { "label": "DSA Problems", "value": "350+" },
-      { "label": "Internships", "value": "1 (incoming)" }
+      { "label": "Internships", "value": "1" }
     ]
   },
   "footerText": "© 2025 S Balaji Rao | Made with ❤️ using React + Vite + Tailwind + Framer Motion."

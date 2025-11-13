@@ -44,11 +44,11 @@ const Achievements = () => {
             return (
               <li key={text}>
                 <Motion.div
-                  whileHover={{ scale: 1.05 }}
+                  whileHover={{ scale: 1.05, y: -4 }}
                   transition={{ type: 'spring', stiffness: 240, damping: 18 }}
-                  className="glass-panel flex items-start gap-4 rounded-3xl border border-slate-200/70 bg-white/80 p-5 text-sm text-gray-700 dark:border-white/10 dark:bg-slate-900/60 dark:text-gray-300"
+                  className="glass-panel flex items-start gap-4 rounded-3xl border border-slate-200/70 bg-white/80 p-5 text-sm text-gray-700 shadow-sm transition hover:border-accent-cyan/50 hover:shadow-card-glow dark:border-white/10 dark:bg-slate-900/60 dark:text-gray-300 dark:hover:border-accent-purple/50"
                 >
-                  <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-accent-cyan/20 to-accent-purple/30 text-accent-cyan dark:from-accent-cyan/10 dark:to-accent-purple/20">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-accent-cyan/30 to-accent-purple/40 text-accent-cyan shadow-sm dark:from-accent-cyan/20 dark:to-accent-pink/30 dark:text-accent-pink">
                     <Icon className="h-5 w-5" />
                   </span>
                   <p className="leading-relaxed">{text}</p>

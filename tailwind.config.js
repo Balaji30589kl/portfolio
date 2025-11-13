@@ -4,12 +4,21 @@ import forms from '@tailwindcss/forms';
 const config = {
   darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  safelist: [
+    'text-slate-300',
+    'text-slate-400',
+    'text-slate-500',
+    'dark:text-slate-200',
+    'dark:text-slate-300',
+    'dark:text-slate-400',
+  ],
   theme: {
     extend: {
       colors: {
-        'accent-cyan': '#4fd9ff',
-        'accent-purple': '#9c6bff',
-        'accent-teal': '#2dd4bf',
+        'accent-cyan': '#00C9FF',
+        'accent-purple': '#A855F7',
+        'accent-pink': '#EC4899',
+        'accent-teal': '#14B8A6',
         'surface-dim': '#0d1117',
         'surface-glass': 'rgba(15, 23, 42, 0.55)',
       },
@@ -19,11 +28,16 @@ const config = {
       },
       backgroundImage: {
         'glow-gradient':
-          'radial-gradient(circle at 20% 20%, rgba(79, 217, 255, 0.45), transparent 55%), radial-gradient(circle at 80% 0%, rgba(156, 107, 255, 0.4), transparent 45%), radial-gradient(circle at 50% 80%, rgba(45, 212, 191, 0.35), transparent 60%)',
+          'radial-gradient(circle at 20% 20%, rgba(0, 201, 255, 0.45), transparent 55%), radial-gradient(circle at 80% 0%, rgba(168, 85, 247, 0.4), transparent 45%), radial-gradient(circle at 50% 80%, rgba(20, 184, 166, 0.35), transparent 60%)',
+        'gradient-primary': 'linear-gradient(135deg, #00C9FF 0%, #A855F7 100%)',
+        'gradient-secondary': 'linear-gradient(135deg, #00C9FF 0%, #EC4899 100%)',
+        'gradient-accent': 'linear-gradient(90deg, #00C9FF 0%, #A855F7 50%, #EC4899 100%)',
       },
       boxShadow: {
-        glow: '0 0 25px rgba(79, 217, 255, 0.35), 0 0 60px rgba(156, 107, 255, 0.25)',
+        glow: '0 0 30px rgba(0, 201, 255, 0.4), 0 0 70px rgba(168, 85, 247, 0.3)',
+        'glow-pink': '0 0 30px rgba(236, 72, 153, 0.4), 0 0 70px rgba(168, 85, 247, 0.3)',
         glass: '0 10px 45px rgba(15, 23, 42, 0.35)',
+        'card-glow': '0 4px 20px rgba(0, 201, 255, 0.15), 0 8px 40px rgba(168, 85, 247, 0.1)',
       },
       borderRadius: {
         glass: '24px',

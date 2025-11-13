@@ -47,7 +47,7 @@ const Projects = () => {
             <Motion.article
               key={project.title}
               variants={scaleIn}
-              className="glass-panel grid gap-8 px-8 py-10 md:grid-cols-[1.2fr,1fr] md:px-12"
+              className="glass-panel grid gap-8 rounded-3xl border border-slate-200/60 bg-white/80 px-8 py-10 shadow-sm transition hover:border-accent-cyan/50 hover:shadow-card-glow dark:border-white/10 dark:bg-slate-900/60 dark:hover:border-accent-purple/50 md:grid-cols-[1.2fr,1fr] md:px-12"
             >
               <div className="space-y-5">
                 <h3 className="text-2xl font-semibold text-slate-900 md:text-3xl dark:text-slate-100">{project.title}</h3>
@@ -56,7 +56,7 @@ const Projects = () => {
                   {project.tech.map((tech) => (
                     <li
                       key={tech}
-                      className="rounded-full border border-slate-200/80 bg-white/80 px-3 py-1 text-xs font-medium uppercase tracking-wide text-slate-700 dark:border-white/10 dark:bg-slate-900/70 dark:text-slate-300"
+                      className="rounded-full border border-cyan-200/80 bg-gradient-to-r from-white to-cyan-50/50 px-3 py-1 text-xs font-bold uppercase tracking-wide text-slate-700 transition hover:border-accent-cyan/60 hover:from-cyan-50 hover:to-purple-50 dark:border-purple-500/30 dark:from-slate-900/70 dark:to-purple-900/30 dark:text-slate-300 dark:hover:border-accent-purple/60"
                     >
                       {tech}
                     </li>
@@ -68,7 +68,7 @@ const Projects = () => {
                       href={project.links.demo}
                       target="_blank"
                       rel="noreferrer"
-                      className="group inline-flex items-center gap-2 rounded-full border border-transparent bg-accent-cyan/90 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-accent-cyan focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-950"
+                      className="group inline-flex items-center gap-2 rounded-full border border-transparent bg-gradient-to-r from-accent-cyan to-accent-purple px-5 py-2.5 text-sm font-bold text-white shadow-glow transition hover:shadow-glow-pink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-purple/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-950"
                     >
                       Live Demo
                       <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
@@ -110,7 +110,7 @@ const Projects = () => {
             {otherProjects.map((project) => (
               <div
                 key={project.title}
-                className="glass-panel flex flex-col gap-4 p-6 transition hover:-translate-y-1 hover:shadow-glow"
+                className="glass-panel flex flex-col gap-4 rounded-3xl border border-slate-200/60 bg-white/80 p-6 shadow-sm transition hover:-translate-y-1 hover:border-accent-cyan/50 hover:shadow-card-glow dark:border-white/10 dark:bg-slate-900/60 dark:hover:border-accent-purple/50"
               >
                 <div>
                   <h4 className="text-xl font-semibold text-slate-900 dark:text-slate-100">{project.title}</h4>

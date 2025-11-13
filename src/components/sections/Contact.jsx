@@ -161,7 +161,7 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className="group inline-flex items-center justify-center gap-2 rounded-full border border-transparent bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-teal px-6 py-3 text-sm font-semibold text-slate-950 shadow-glow transition hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-950"
+            className="group inline-flex items-center justify-center gap-2 rounded-full border border-transparent bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-pink px-7 py-3.5 text-sm font-bold text-white shadow-glow transition hover:shadow-glow-pink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-purple/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-950"
           >
             Send Message
           </button>

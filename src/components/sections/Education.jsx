@@ -43,7 +43,7 @@ const Education = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.4 }}
                 transition={{ duration: 0.55, delay: idx * 0.05 }}
-                className="relative rounded-3xl border border-slate-200/60 bg-white/80 p-6 backdrop-blur-sm dark:border-white/10 dark:bg-slate-900/60"
+                className="group relative rounded-3xl border border-slate-200/60 bg-white/80 p-6 backdrop-blur-sm transition hover:border-accent-cyan/40 hover:shadow-card-glow dark:border-white/10 dark:bg-slate-900/60 dark:hover:border-accent-purple/40"
               >
                 <span className="absolute -left-[37px] top-6 flex h-3 w-3 items-center justify-center rounded-full border border-accent-cyan/70 bg-white dark:bg-slate-950">
                   <span className="h-2 w-2 rounded-full bg-accent-cyan" />
@@ -58,7 +58,7 @@ const Education = () => {
                           initial={{ opacity: 0, scale: 0.9 }}
                           whileInView={{ opacity: 1, scale: 1 }}
                           viewport={{ once: true, amount: 0.6 }}
-                          className="inline-flex items-center rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 px-2 py-1 text-xs font-bold text-white dark:from-purple-500 dark:to-cyan-500"
+                          className="inline-flex items-center rounded-full bg-gradient-to-r from-accent-cyan to-accent-purple px-2.5 py-1 text-xs font-bold text-white shadow-glow dark:from-accent-purple dark:to-accent-pink"
                         >
                           {item.score}
                         </Motion.span>

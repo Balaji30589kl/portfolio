@@ -87,7 +87,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
-            className="hidden rounded-md border border-slate-200/70 bg-white/70 px-3 py-1.5 text-sm font-semibold text-transparent shadow-sm transition hover:shadow-glow focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:border-white/10 dark:bg-slate-900/50 dark:focus-visible:ring-offset-slate-950 lg:inline-block bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500"
+            className="hidden rounded-full border border-accent-cyan/60 bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-pink px-5 py-2 text-sm font-bold text-white shadow-glow transition hover:shadow-glow-pink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-purple/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:border-accent-purple/60 dark:focus-visible:ring-offset-slate-950 lg:inline-block"
           >
             Resume
           </Motion.a>
@@ -152,7 +152,7 @@ const Navbar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setIsMobileOpen(false)}
-                  className="block rounded-2xl border border-slate-200/70 bg-white/80 px-4 py-3 text-base font-semibold text-transparent transition hover:shadow-glow dark:border-white/10 dark:bg-slate-900/60 bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500"
+                  className="block rounded-2xl border border-accent-cyan/50 bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-pink px-4 py-3 text-base font-semibold text-white transition hover:shadow-glow dark:border-accent-purple/50"
                 >
                   Resume
                 </a>

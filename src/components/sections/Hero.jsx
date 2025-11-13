@@ -93,7 +93,7 @@ const Hero = () => {
                 href="#projects"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
-                className="group inline-flex items-center gap-2 rounded-full border-2 border-cyan-300/60 bg-white/90 px-6 py-3 text-sm font-bold text-slate-800 transition hover:border-accent-purple/60 hover:bg-gradient-to-r hover:from-cyan-50 hover:to-purple-50 hover:shadow-card-glow focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:border-purple-500/40 dark:bg-slate-900/80 dark:text-slate-100 dark:hover:border-accent-cyan/60 dark:focus-visible:ring-offset-slate-950"
+                className="group inline-flex items-center gap-2 rounded-full border-2 border-accent-cyan/40 bg-gradient-to-r from-accent-cyan/10 to-accent-purple/10 px-6 py-3 text-sm font-bold text-slate-800 backdrop-blur-sm transition hover:border-accent-purple/60 hover:from-accent-cyan/20 hover:to-accent-purple/20 hover:shadow-card-glow focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:border-accent-purple/40 dark:from-accent-purple/10 dark:to-accent-pink/10 dark:text-slate-100 dark:hover:border-accent-cyan/60 dark:hover:from-accent-cyan/20 dark:hover:to-accent-purple/20 dark:focus-visible:ring-offset-slate-950"
               >
                 Projects
                 <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />

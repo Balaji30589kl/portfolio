@@ -32,7 +32,7 @@
     "stats": [
       { "label": "Projects Built", "value": "3+" },
       { "label": "DSA Problems", "value": "350+" },
-      { "label": "Internships", "value": "1" }
+      { "label": "Intership", "value": "1" }
     ]
   },
   "footerText": "© 2025 S Balaji Rao | Made with ❤️ using React + Vite + Tailwind + Framer Motion."

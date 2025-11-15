@@ -62,12 +62,12 @@ const Hero = () => {
                 {/* tw-ignore-start */}
                 <Motion.div
                   variants={fadeInUp}
-                  className="flex flex-wrap items-center gap-8 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl text-white dark:text-white !text-white [text-shadow:_0_0_8px_rgba(0,0,0,0.6)]"
+                  className="flex flex-wrap items-center gap-8 rounded-2xl border border-slate-200/50 bg-white/10 p-6 backdrop-blur-xl text-slate-800 dark:border-white/10 dark:bg-slate-900/50 dark:text-white [text-shadow:_0_0_6px_rgba(0,0,0,0.35)]"
                 >
                   {stats.map((stat) => (
                     <div key={stat.label} className="flex items-baseline gap-3">
-                      <span className="text-3xl md:text-4xl font-bold text-white dark:text-white !text-white !opacity-100">{stat.value}</span>
-                      <span className="text-xs md:text-sm font-semibold uppercase tracking-[0.25em] text-slate-300 dark:text-slate-400 !text-slate-300 !opacity-100">
+                      <span className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white">{stat.value}</span>
+                      <span className="text-xs md:text-sm font-semibold uppercase tracking-[0.25em] text-slate-600 dark:text-slate-400">
                         {stat.label}
                       </span>
                     </div>
